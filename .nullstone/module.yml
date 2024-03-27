@@ -1,0 +1,13 @@
+org_name: nullstone
+name: gcp-https-ingress
+friendly_name: HTTPS Ingress
+description: Creates an HTTPS Ingress utilizing GCP managed infrastructure.
+category: ingress
+subcategory: ""
+provider_types:
+    - gcp
+platform: compute
+subplatform: ""
+type: ""
+appCategories: []
+is_public: true
