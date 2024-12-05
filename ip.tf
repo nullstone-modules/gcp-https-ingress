@@ -1,6 +1,5 @@
 resource "google_compute_global_address" "static-ip" {
-  name   = local.resource_name
-  labels = local.labels
+  name = local.resource_name
 }
 
 resource "google_dns_record_set" "this" {
