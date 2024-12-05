@@ -5,5 +5,10 @@ output "public_ip" {
 
 output "certificate_id" {
   value       = google_certificate_manager_certificate.this.id
-  description = "string ||| The ID of the SSL Certificate (Certificate Manager) created for this ingress."
+  description = "string ||| The ID of the Certificate Manager certificate created for this ingress."
+}
+
+output "certificate_map_id" {
+  value       = google_certificate_manager_certificate_map.this.id
+  description = "string ||| THe ID of the Certificate Manager Map that contains the certificate."
 }
